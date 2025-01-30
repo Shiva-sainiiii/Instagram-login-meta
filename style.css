@@ -1,0 +1,94 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+body{
+font-family: "Open Sans", serif;
+background-color: #efefef;
+font-size:2vh;
+}
+
+
+header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+width:100vw;
+height:7vh;
+border-bottom:2px solid #dadada;
+}
+
+header > div > img {
+margin-top:-2vh;
+width:17.9vh;
+height:8.9vh;
+background-color: #efefef;
+}
+
+header > div > a {
+text-decoration:none;
+color:#0095f6;
+font-weight:bold;
+margin-right:3vw;
+
+}
+header > div > button {
+width:13vh;
+height:5.2vh;
+border:none;
+border-radius:15px;
+background-color:#0095f6;
+color:white;
+font-weight:bold;
+margin-right:5vw;
+font-size:2vh;
+}
+
+form{
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+gap:2vh;
+}
+form > input {
+width:70vw;
+background-color: #efefef;
+border:1px solid gray;
+border-radius:8px;
+height:6.5vh;
+padding-left:2vw;
+font-size:2vh;
+margin-top:3vw;}
+
+form > button {
+width:70vw;
+height:6.4vh;
+border:none;
+color:white;
+font-weight:bold;
+opacity:.5;
+border-radius:15px;
+background-color:#0095f6;
+margin-top:6vw;
+font-size:2vh;
+}
+#wrapper{
+padding-top:10vh;
+display:flex;
+align-items:center;
+justify-content:center;
+width:100vw;
+flex-direction:column;
+height:40vh;
+gap:5vw;
+}
+
+#wrapper h1{font-size:2.5vh
+}
+#wrapper p{width:73vw;
+font-size:2vh;
+text-align:center;
+opacity:.5;}
